@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2K Games Work</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .project-section {
+      max-width: 900px;
+      margin: 10px auto;
+      padding: 20px;
+    }
+    .project {
+      margin-bottom: 50px;
+      padding: 20px;
+      background-color: #f4f4f4;
+      border-radius: 8px;
+    }
+    .project h2 {
+      margin-top: 0;
+    }
+    .project img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    .project-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 15px;
+    }
+    .project-gallery img {
+      max-width: 180px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <h1>Lewis Corbett</h1>
+    
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">2K</div>
+      <div class="nav-toggle" id="nav-toggle">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+          <li><a href="2K.html">2K</a></li>
+          <li><a href="PlayStation.html">PlayStation</a></li>
+          <li><a href="Outright.html">Outright Games</a></li>
+          <li><a href="University.html">University</a></li>
+          <li><a href="Models.html">Models</a></li>
+          <li><a href="contact.html">CV</a></li>
+          <li><a href="https://www.linkedin.com/in/lewis-corbett-b4999a166" target="_blank">LinkedIn</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="project-section">
+    <img src="images/2k/2k-banner.jpg" alt="2K Banner" class="banner-image">
+    <h1>Work at 2K Games</h1>
+    <div class="project">
+      <p>As Associate Project Manager I oversee the coordination, review, and delivery of assets across multiple global territories. I work with internal & external  stakeholders and First Party vendors to ensure high-quality assets are delivered on time and aligned with brand standards. I manage packaging schedules, facilitate approvals, and support the product lifecycle from concept to launch.</p>
+    </div>
+
+    <div class="project">
+      <h2>PGA TOUR 2K25</h2>
+      <p>I worked on the packaging for PGA TOUR 2K25, contributing to the development and coordination of multiple key assets including coversheets, disc labels, pre-order inserts, point of sale materials, and online manuals. My primary focus was on EMEA (Europe, Middle East, and Africa) assets, where I helped ensure all regional requirements were met in terms of localization, legal compliance, and formatting standards. This involved close collaboration with cross-functional teams, including localization, legal, and print production, to maintain accuracy and consistency across all deliverables for the region.</p>
+      <div class="project-gallery">
+        <img src="images/2k/pga2k25-XBSX.jpg" alt="NBA 2K Box 1">
+        <img src="images/2k/pga2k25-PS5.jpg" alt="NBA 2K Box 2">
+      </div>
+    </div>
+
+    <div class="project">
+      <h2>WWE 2K25</h2>
+      <p>I supported the packaging development for WWE 2K25, working across a wide range of assets including coversheets, disc labels, pre-order inserts, point of sale materials, and online manuals. My responsibilities were primarily focused on the EMEA region, ensuring all materials were properly localized and met regional legal and compliance standards. I collaborated closely with internal teams and external partners to manage asset updates, track approvals, and ensure timely delivery of all packaging components ahead of key milestones and release dates.</p>
+      <div class="project-gallery">
+        <img src="images/2k/wwe2k25-PS5.jpg" alt="WWE 2K Package 1">
+        <img src="images/2k/wwe2k25-XBSX.jpg" alt="WWE 2K Package 2">
+        <img src="images/2k/wwe2k25-PS4.jpg" alt="WWE 2K Package 2">
+      </div>
+    </div>
+
+    <div class="project">
+      <h2>Sid Meier's Civilization® VII – Nintendo Switch 2</h2>
+      <p>I worked on the packaging for Civilization VII for the Nintendo Switch 2 edition, supporting all regions including America, EMEA, and parts of Asia. This project was unique in that it involved a platform that had not yet been released, requiring close coordination with both Nintendo and the development team to ensure all packaging assets—such as coversheets and Cart labels—met evolving platform guidelines and specifications. Working across multiple regions also meant managing varying compliance requirements and localization needs, all while adapting to the challenges of developing for an unreleased console.</p>
+      <div class="project-gallery">
+        <img src="images/2k/Civ7-NSW2.jpg" alt="Special Edition 1">
+        <img src="images/special_2.jpg" alt="Special Edition 2">
+      </div>
+    </div>
+  </main>
+</div>
+  <script>
+    const toggle = document.getElementById('nav-toggle');
+    const links = document.getElementById('nav-links');
+    toggle.addEventListener('click', () => {
+      links.classList.toggle('show');
+    });
+  </script>
+</body>
+</html>

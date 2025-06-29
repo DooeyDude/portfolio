@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2K Games Work</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .project-section {
+      max-width: 900px;
+      margin: 10px auto
+    }
+    .project {
+      margin-bottom: 50px;
+      padding: 20px;
+      background-color: #f4f4f4;
+      border-radius: 8px;
+    }
+    .project h2 {
+      margin-top: 0;
+    }
+    .project img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    .project-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 15px;
+    }
+    .project-gallery img {
+      max-width: 180px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <h1>Lewis Corbett</h1>
+    
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">PlayStation</div>
+      <div class="nav-toggle" id="nav-toggle">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+          <li><a href="2K.html">2K</a></li>
+          <li><a href="PlayStation.html">PlayStation</a></li>
+          <li><a href="Outright.html">Outright Games</a></li>
+          <li><a href="University.html">University</a></li>
+          <li><a href="Models.html">Models</a></li>
+          <li><a href="contact.html">CV</a></li>
+          <li><a href="https://www.linkedin.com/in/lewis-corbett-b4999a166" target="_blank">LinkedIn</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="project-section">
+    <img src="images/sie/PlayStation-banner.jpg" alt="PlayStation Banner" class="banner-image">
+    <h1>Work at PlayStation</h1>
+    <div class="project">
+      <p>Working at Sony Interactive Entertainment as a Packaging Assistant, The job revolved mainly around coordinating and managing reviews of assets with key stakeholders globally. While also working with different parts of the business to hit deadlines for product releases, I also manage communications with third parties who support in creating and delivering these assets. </p>
+    </div>
+
+    <div class="project">
+      <h2>Horizon Forbidden West Complete Edition</h2>
+      <p>Horizon Forbidden West: Complete Edition was my first packaging project at PlayStation and came with the challenge of a tight six-week deadline. The project involved managing a high volume of assets—including two disc labels, a download insert, and a coversheet—across all global regions. Despite being new to the processes, I quickly adapted and successfully navigated the workflows required, coordinating closely with teams across multiple time zones to ensure all assets were delivered accurately and on time. This experience strengthened my ability to manage complex deliverables under pressure while maintaining a high standard of quality and communication.</p>
+      <div class="project-gallery">
+        <img src="images/sie/horizon-forbidden-west-ps5-game-box-front-en-pegi.webp" alt="NBA 2K Box 1">
+      </div>
+    </div>
+
+    <div class="project">
+      <h2>PS5 Recertified Packaging</h2>
+      <p>I contributed to the packaging for the PS5 Recertified line—Sony’s refurbished console lineup—with a focus on the US and EMEA regions. Each country involved had its own specific requirements and compliance criteria, making this project particularly detail-oriented. I worked closely with various teams across the business, including supply chain, legal, and product teams, to understand how stock was being sourced and distributed. This project required extensive cross-functional communication to ensure the packaging met regional standards while aligning with Sony’s branding and quality expectations for recertified products.</p>
+      <div class="project-gallery">
+        <img src="images/sie/PS5-Recertified-Hero-2-Box-EU.webp" alt="WWE 2K Package 1">
+        <img src="images/sie/PS5-DigitalConsole-Recertified-Hero-1-Box-EU.webp" alt="WWE 2K Package 2">
+      </div>
+    </div>
+
+    <div class="project">
+      <h2>Spider-Man: Miles Morales Ultimate Edition</h2>
+      <p>In my final months at PlayStation, I identified a critical issue with Spider-Man: Miles Morales Ultimate Edition, which includes a download code for Spider-Man Remastered on PS5. The code was set to expire the following year, and this had gone unnoticed. I took initiative to address the issue by coordinating with the PlayStation Network backend team to ensure the validity of already printed codes would be extended. In parallel, I created updated packaging for all regions to reflect the new expiration details, ensuring compliance and preventing potential customer service issues. This experience highlighted my attention to detail and ability to manage high-impact updates under time-sensitive conditions.</p>
+      <div class="project-gallery">
+        <img src="images/sie/spiderman-miles-morales-ultimate-edition-ps5-game-box-front-en-pegi.webp" alt="Special Edition 1">
+      </div>
+    </div>
+
+    <div class="project">
+      <h2>PS5 Safety Guide</h2>
+      <p>Throughout my time at PlayStation, I also supported a colleague with updating the PlayStation 5 console manuals. This involved assisting with multiple revisions to ensure the content remained accurate and aligned with hardware and regulatory updates. Notably, I contributed to the updates for the then-unreleased PlayStation 5 Slim, requiring careful handling of confidential information and coordination with relevant teams to ensure timely and accurate documentation ahead of launch.</p>
+      <div class="project-gallery">
+        <img src="images/sie/CFI-20XX_PS5_Safety_Guide.png" alt="WWE 2K Package 1">
+      </div>
+    </div>
+
+  </main>
+</div>
+  <script>
+    const toggle = document.getElementById('nav-toggle');
+    const links = document.getElementById('nav-links');
+    toggle.addEventListener('click', () => {
+      links.classList.toggle('show');
+    });
+  </script>
+</body>
+</html>
