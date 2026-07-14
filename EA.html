@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2K Games Work</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .project-section {
+      max-width: 900px;
+      margin: 10px auto;
+      padding: 20px;
+    }
+    .project {
+      margin-bottom: 50px;
+      padding: 20px;
+      background-color: #f4f4f4;
+      border-radius: 8px;
+    }
+    .project h2 {
+      margin-top: 0;
+    }
+    .project img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    .project-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 15px;
+    }
+    .project-gallery img {
+      max-width: 180px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <h1>Lewis Corbett</h1>
+    
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">Electronic Arts</div>
+      <div class="nav-toggle" id="nav-toggle">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+          <li><a href="EA.html">EA</a></li>
+          <li><a href="2K.html">2K</a></li>
+          <li><a href="PlayStation.html">PlayStation</a></li>
+          <li><a href="Outright.html">Outright Games</a></li>
+          <li><a href="University.html">University</a></li>
+          <li><a href="Models.html">Models</a></li>
+          <li><a href="contact.html">CV</a></li>
+          <li><a href="https://www.linkedin.com/in/lewis-corbett-b4999a166" target="_blank">LinkedIn</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="project-section">
+    <img src="images/ea/ea-banner.jpg" alt="EA Banner" class="banner-image">
+    <h1>Work at Electronic Arts</h1>
+    <div class="project">
+      <p>I coordinate the planning, creation and delivery of CRM email content and in-game advertising across multiple EA franchises, with a primary focus on EA SPORTS FC. I work closely with multiple teams to define campaign requirements, gather creative assets and produce detailed briefs for designers. Throughout the production process I collaborate with Brand, CRM, Legal, external licensors and localisation teams to ensure all content meets brand guidelines, secures the necessary approvals and is delivered on schedule.</p>
+    </div>
+  </main>
+</div>
+  <script>
+    const toggle = document.getElementById('nav-toggle');
+    const links = document.getElementById('nav-links');
+    toggle.addEventListener('click', () => {
+      links.classList.toggle('show');
+    });
+  </script>
+</body>
+</html>
