@@ -9,7 +9,11 @@
 </head>
 <body>
   <div class="container">
-    <h1>Lewis Corbett</h1>
+    <header class="intro">
+      <p class="eyebrow">Portfolio / 2026</p>
+      <h1>Lewis Corbett</h1>
+      <p class="intro-copy">Project and content management across games, player experiences and global launches.</p>
+    </header>
     
     <nav class="navbar">
       <div class="nav-container">
@@ -28,7 +32,7 @@
         </ul>
       </div>
     </nav>
-    <div class="timeline">
+    <main class="timeline" aria-label="Career timeline">
       <div class="entry">
         <div class="company">
           <a href="EA.html">
@@ -53,6 +57,7 @@
           <div class="swiper-pagination"></div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
+        </div>
       </div>
 
       <div class="entry">
@@ -92,6 +97,7 @@
           <div class="swiper-pagination"></div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
+        </div>
       </div>
 
       <div class="entry">
@@ -198,9 +204,7 @@
             During my time at the University of Portsmouth, I developed a well-rounded understanding of the games industry with a strong emphasis on business, project management, and entrepreneurship, supported by technical and creative skill-building. The course focused on preparing students for leadership roles within game development, combining practical production experience with deep theoretical knowledge.</p>
         </div>
       
-    </div>
-  </div>
-    </div>
+    </main>
   </div>
 
   
@@ -211,8 +215,12 @@
     carousels.forEach((carousel, i) => {
       new Swiper(carousel, {
         loop: true,
-        slidesPerView: 3,
-        spaceBetween: 10,
+        slidesPerView: 1,
+        spaceBetween: 12,
+        breakpoints: {
+          560: { slidesPerView: 2 },
+          860: { slidesPerView: 3 }
+        },
         autoplay: {
           delay: 2500,
           disableOnInteraction: true,
