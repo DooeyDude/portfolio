@@ -39,6 +39,9 @@ body::before {
   mask-image: linear-gradient(to bottom, black, transparent 75%);
 }
 
+.network-canvas { position: fixed; inset: 0; z-index: 0; width: 100%; height: 100%; pointer-events: none; opacity: .8; }
+.container { position: relative; z-index: 1; }
+
 a { color: inherit; }
 
 .container { max-width: 1180px; margin: 0 auto; padding: 28px 32px 80px; }
@@ -85,6 +88,8 @@ a { color: inherit; }
 
 .company { display: flex; align-items: center; gap: 16px; }
 .company h2, .entry h2 { margin: 0; font-size: clamp(1.1rem, 2.2vw, 1.45rem); line-height: 1.35; letter-spacing: -.035em; }
+.company h2 a { color: inherit; text-decoration: none; transition: color .2s ease; }
+.company h2 a:hover, .company h2 a:focus-visible { color: var(--accent); text-decoration: underline; text-decoration-color: rgba(148,247,207,.55); text-underline-offset: 4px; outline: none; }
 .company-logo { width: 54px; height: 54px; flex: 0 0 auto; margin: 0; padding: 7px; border: 1px solid var(--line); border-radius: 14px; object-fit: contain; background: rgba(255,255,255,.94); }
 .year { display: inline-block; margin: 19px 0 5px; color: var(--accent); font-family: 'DM Mono', monospace; font-size: .72rem; font-weight: 500; letter-spacing: .05em; text-transform: uppercase; }
 .description, .project p { max-width: 90ch; margin: 8px 0 0; color: var(--muted); font-size: .96rem; }
